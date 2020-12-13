@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Formularios</h1>
+</header>    
+<main>
+    <section>
+        <h2>Registro de usuarios</h2>
+        <form action="">
+            <label for="nombres">Nombres</label>
+            <input type="text" placeholder="Ingresa tu nombre completo" id="nombres">
+            <br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" placeholder="Ingresar apellidos" id="apellidos">
+            <br>
+            <label for="email">correo</label>
+            <input type="email" placeholder="ingresa tu correo electronico" id="email">
+            <br>
+            <label for="pass">Password</label>
+            <input type="password" placeholder="Ingresar contraseña" id="pass">
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" placeholder="Ingresa tu edad" min="2" id="edad">
+            <br>
+            <h4>Datos Adicionales</h4>
+            <label for="cumple">Fecha de Nacimiento</label>
+            <input type="date" id="cumple">
+            <br>
+            <label for="tel">Telefono</label>
+            <input type="tel" placeholder="Ingrese su Nº Celular">
+            <br>
+            <label for="genero">Género</label>
+            <br>
+            <input type="radio" name="genero" value="M">Masculino
+            <br>
+            <input type="radio" name="genero" value="F">Femenino
+            <br>
+            <input type="radio" name="genero" value="ND">Prefiero no divulgarlo 
+            <br>
+            <label for="depa">Departamento</label>
+            <br>
+            <select name="depa" id="depa">
+                <option disabled selected>Seleccionar...</option>
+                <option value="AM">Amazonas</option>
+                <option value="AN">Ancash</option>
+                <option value="AP">Apurimac</option>
+                <option value="AR">Arequipa</option>
+                <option value="LI">Lima</option>
+            </select>
+            <br>
+            <label for="hob">Hobbies</label>
+            <br>
+            <label for="leer">leer</label>
+            <input type="checkbox" value="leer">
+            <label for="fut">Futbol</label>
+            <input type="checkbox" value="futbol">
+            <br>
+            <label for="tgui">Tocar Guitarra</label>
+            <input type="checkbox" value="guitarra">
+            <br>
+            <label for="des">Describete</label>
+            <textarea placeholder="Describete" name="des" id="des" cols="30" rows="10"></textarea>
+            <br>
+            <label for="foto">Sube tu foto</label>
+            <input type="file">
+            <hr>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </section>
+</main>
+</body>
+</html>

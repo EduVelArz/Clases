@@ -1,0 +1,19 @@
+h1{
+    font-family: Arial;
+}
+
+section{
+    background: aqua;
+}
+
+.resaltar{
+    background: yellow;
+}
+
+.textorojo{
+    color: red;
+}
+
+#importante{
+    border: 3px dotted red;
+}

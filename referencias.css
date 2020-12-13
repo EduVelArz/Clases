@@ -1,0 +1,54 @@
+h1, article{
+    background: skyblue;
+}
+
+section article{
+    color: blue;
+}
+
+ol>li{
+    font-family: Arial;
+    color: orangered;
+}
+
+ol>ul>li{
+    color: peru;
+}
+
+div+p{
+    background: blueviolet;
+    color: white;
+}
+
+.seccion1>h2{
+    border: 2px solid green;
+}
+
+h2{
+    border: 3px solid peru !important;
+}
+
+
+p:nth-child(3){
+    font-style: italic;
+    font-weight: bold;
+    color: tomato;
+}
+
+p:first-child{
+    color: salmon;
+    text-decoration: underline;
+    font-size: 16px !important;
+}
+
+tr:nth-child(odd){
+    background: springgreen;
+}
+
+tr:nth-child(even){
+    background: lightcoral;
+}
+thead tr:nth-child(1){
+    background-color: darkgreen;
+    
+}
